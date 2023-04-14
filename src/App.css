@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+.card {
+  width: 800px;
+  padding: 20px;
+  -webkit-box-shadow: -1px 5px 50px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 5px 50px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 5px 50px -3px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  
+}
+.card h2{
+  text-transform: capitalize;
+}
+
+.card-button {
+  display: flex;
+  justify-content: space-between;
+}
+.card-button .a1{
+  color: red;
+  text-decoration: none;
+}
+.card-button a{
+  color: lightblue;
+  text-decoration: none;
+}
+h1{
+  padding: 10px;
+  margin: 15px;
+  font-weight: 700;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+  padding: 10px;
+  width: 400px;
+  border: none;
+  outline: none;
+  box-shadow: 10px 10px 10px 10px;
+  margin-bottom: 30px;
+}
+.pagination_btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.pagination_btn button{
+  background-color: lightblue;
+  padding: 6px;
+  width: 80px;
+  margin-right: 30px;
+  margin-left: 30px;
+  height: 38px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+.pagination_btn p{
+ padding-top: 6px;
+ font-size: 1.2rem;
+ font-weight: bold;
+
+}
